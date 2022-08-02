@@ -47,14 +47,12 @@ _Небольшой, учебный Fullstack проект с использов
   - Загрузка изображения на сервер
   - Отправка статьи на бэкенд
 
-## **[Задеплоил] проект:**
+## **[Задеплоил](https://mern-blog-frontend-six.vercel.app) проект:**
 
-[1](https://mern-blog-frontend-six.vercel.app)
-
-### Backend
+- ### Backend
 
 на Heroku
 
-### Frontend
+- ### Frontend
 
 на Vercel
