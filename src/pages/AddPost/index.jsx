@@ -62,9 +62,9 @@ export const AddPost = () => {
       const _id = isEditing ? id : data._id;
 
       navigate(`/posts/${_id}`);
-    } catch (error) {
-      console.warn(error);
-      alert('Ошибка при создаии статьи');
+    } catch (err) {
+      console.warn(err);
+      alert('Ошибка при создаии статьи!!!');
     }
   };
   React.useEffect(() => {
