@@ -16,7 +16,7 @@ export const AddPost = () => {
   const navigate = useNavigate();
   const isAuth = useSelector(selectIsAuth);
   const [text, setText] = React.useState('');
-  const [setIsLoading] = React.useState('false');
+  const [IsLoading, setIsLoading] = React.useState('false');
   const [title, setTitle] = React.useState('');
   const [tags, setTags] = React.useState('');
   const [imageUrl, setImageUrl] = React.useState('');
