@@ -64,7 +64,7 @@ export const AddPost = () => {
       navigate(`/posts/${_id}`);
     } catch (err) {
       console.warn(err);
-      alert('Ошибка при создаии статьи!!!');
+      alert('Ошибка при создании статьи!!!');
     }
   };
   React.useEffect(() => {
